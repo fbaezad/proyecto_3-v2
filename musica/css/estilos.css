@@ -1,0 +1,109 @@
+
+/* --	estilo bodoy	-- */
+body {
+	background: gray;
+	padding: 20px;
+}
+
+/* --	estilo logo	-- */
+.logo {
+	max-width: 25%;
+	padding-left: 20px;
+}
+
+/* --	estilos redes sociales	-- */
+.rsocial {
+	font-size: 30px;
+	margin-top: 4%;
+}
+
+/* --	menu superior	-- */
+.menusup {
+	background-color: #e3f2fd;
+	border-radius: 15px 15px 0px 0px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* --	Espaciado	-- */
+.espacio {
+	padding: 5px;
+	background: white;
+}
+
+/* --	Estilo del contenido	-- */
+.articulo {
+	background-color: white;
+}
+
+/* --	Estilo Responsive	-- */
+@media (min-width: 768px){
+	.navbar-nav {
+		margin: 0 auto;
+		display: table;
+		table-layout: auto;
+		float: none;
+		width: 100%;
+	}
+
+	.navbar-nav > li {
+		display: table-cell;
+		float: none;
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.logo {
+		max-width: 15%;
+		padding-left: 10px;
+	}
+
+	.rsocial {
+		margin-top: 1%;
+		font-size: 15px;
+		text-align: center;
+		float: none;
+	}
+
+	.menu a {
+		background-color: #e3f2fd;
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+}
+
+/* --	Estilo Imagenes	-- */
+div img {
+	width: 100%;
+	height: auto;
+	margin-top: 10%;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* --	Estilos en parrafos	-- */
+p {
+	font-size: 10.5px;
+	text-align: justify;
+}
+
+/* --	Estilos de iconos	-- */
+.icono {
+	font-size: 30px;
+}
+
+/* --	Estilo Busqueda	-- */
+.buscar {
+	padding-top: 20px;
+}
+
+
